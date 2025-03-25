@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JWT Authentication Example</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>JWT Authentication Example</h1>
+
+    <h2>Регистрация</h2>
+    <form id="registerForm">
+        <label for="registerUsername">Имя пользователя:</label>
+        <input type="text" id="registerUsername" name="registerUsername"><br><br>
+        <label for="registerPassword">Пароль:</label>
+        <input type="password" id="registerPassword" name="registerPassword"><br><br>
+        <button type="submit">Зарегистрироваться</button>
+    </form>
+
+    <h2>Вход</h2>
+    <form id="loginForm">
+        <label for="loginUsername">Имя пользователя:</label>
+        <input type="text" id="loginUsername" name="loginUsername"><br><br>
+        <label for="loginPassword">Пароль:</label>
+        <input type="password" id="loginPassword" name="loginPassword"><br><br>
+        <button type="submit">Войти</button>
+    </form>
+
+    <button id="getDataButton">Получить защищенные данные</button>
+
+    <h2>Результат:</h2>
+    <div id="result"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
